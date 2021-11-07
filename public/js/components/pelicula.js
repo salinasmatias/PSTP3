@@ -20,9 +20,9 @@ export const Pelicula = (titulo, poster, sinopsis, trailer) => `
                             Sinopsis
                         </h2>
                         <p>${sinopsis}</p>
-                        <button type="button" class="btn btn-success">
-                            Comprar entradas
-                        </button>
+                        <button type="button" class="btn btn-success"><a class="text-decoration-none" style="color:white;" href="../view/funciones.html">
+                            Ver funciones
+                        </a></button>
                     </div>
                 </div>
             </div>

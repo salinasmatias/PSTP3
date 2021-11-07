@@ -2,7 +2,7 @@
     margin-top: 1.5em;
 }
 
-#dropdownMenuButton1{
+#pelicula-selection{
     margin-bottom: 1em;
 }
 
@@ -15,4 +15,8 @@
     max-height: 368px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:link{
+    text-decoration: none;
 }

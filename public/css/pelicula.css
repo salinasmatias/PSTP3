@@ -1,0 +1,11 @@
+#titulo-pelicula{
+
+    margin-top: 1em;
+}
+
+#movie-content{
+    max-width: 1212px;
+    max-height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+}

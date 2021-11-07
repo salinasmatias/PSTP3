@@ -1,0 +1,18 @@
+#boton-busqueda{
+    margin-top: 1.5em;
+}
+
+#dropdownMenuButton1{
+    margin-bottom: 1em;
+}
+
+.table td, .table th {
+    text-align: center;   
+}
+
+.container-fluid{
+    max-width: 1212px;
+    max-height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+}

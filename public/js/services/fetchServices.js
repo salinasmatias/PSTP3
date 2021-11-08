@@ -1,6 +1,7 @@
 const UrlApiCineGba = "https://localhost:44355/api"
 const urlFuncion ="https://localhost:44355/api/funcion"
 const urlPelicula ="https://localhost:44355/api/pelicula"
+const urlBaseTickets = "https://localhost:44355/api/tickets"
 
 
 export const getFunciones = (fecha, titulo, callback)=>{
@@ -79,5 +80,42 @@ export const getFuncionesConTitulo = (funciones, callback) =>{
             }
         })
         callback(funciones)
+    })
+}
+
+export const postTickets=(funcionId,user,cantidad, callback)=>{
+    let jsonBody={
+        "funcionId": funcionId,
+        "usuario": user,
+        "cantidad": cantidad
+    }
+    fetch(`${urlBaseTickets}`,{
+        method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(jsonBody)
+    })
+    .then((httpResponse)=>{
+        if(httpResponse.ok)
+            return httpResponse.json()
+    })
+    .then(body => {
+        callback(body);
+        console.log(body);
+    })
+}
+
+export const getPelicula = (id,callback) =>{
+    fetch(`${urlBasePeliId}/${id}`,{
+        method: 'GET'
+    })
+    .then((httpResponse)=>{
+        if(httpResponse.ok)
+            return httpResponse.json()
+    })
+    .then(body => {
+        callback(body);
     })
 }

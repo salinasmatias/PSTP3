@@ -4,7 +4,7 @@
     margin-bottom: 1em;
 }
 
-.container-fluid{
+.container-fluid, #mensaje{
     max-width: 1212px;
     max-height: 368px;
     margin-left: auto;

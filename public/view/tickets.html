@@ -22,7 +22,7 @@
                   <a class="nav-link" style="color: azure;" href="#">Candy</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: azure;" href="#">Funciones</a>
+                  <a class="nav-link" style="color: azure;" href="../view/funciones.html">Funciones</a>
                 </li>
               </ul>
             </div>
@@ -30,42 +30,34 @@
         </nav>
       </header>
 
-
-      <div class="container-fluid" id="venta">
-        <!-- <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h3>
-                            Sonic The Hedgehog
-                        </h3>
-                        <div class="row">
-                          <img alt="Bootstrap Image Preview" src="https://i.imgur.com/hh4JaDH.jpeg" id="imagen-pelicula" class="rounded mx-auto"/>
-                        </div>
-                        <div class="row">
-                          <p>An extraterrestrial hedgehog is discovered by a scientist with evil intentions and plans to use his superpowers for his selfish needs.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <h3 class="text-center">
-                            Comprar Tickets
-                        </h3>
-                        <div class="row justify-content-center">
-                          <div class="input-group mb-3 w-50">
-                            <span class="input-group-text justify-content-center" id="basic-addon1">Usuario</span>
-                            <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
-                            <span class="input-group-text justify-content-center" id="basic-addon1">Tickets</span>
-                            <input type="text" class="form-control" placeholder="Cantidad" aria-label="Username" aria-describedby="basic-addon1">
-                            <button type="button" class="btn btn-success mx-auto">
-                              Comprar
-                          </button>
-                          </div>
-                        </div>
-                    </div>
-                </div>
+      
+      <div class="container-fluid" id="venta"></div>
+      
+      <div class="container-fluid" id="contexto">
+        <div class="col-md-12">
+          <h3 class="text-center">
+              Comprar Tickets
+          </h3>
+          <div class="row justify-content-center">
+            <div class="input-group mb-3 w-50">
+              <span class="input-group-text justify-content-center" id="basic-addon1">Usuario</span>
+              <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1" id="usuario">
+              <span class="input-group-text justify-content-center" id="basic-addon1">Tickets</span>
+              <input type="text" class="form-control" placeholder="Cantidad" aria-label="Username" aria-describedby="basic-addon1" id="cantidad">
+              <button id="boton-compra" type="button" class="btn btn-success mx-auto" >
+                Comprar
+              </button>
             </div>
-        </div> -->
-    </div>
+          </div>
+      </div>
+      </div>
+
+
+      <div class="alert alert-primary alert-dismissible fade show mt-auto" id="mensaje" role="alert">
+        <!-- No disponemos de la cantidad de entradas solicitadas para esta función
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+      </div>
+
 
 
       <footer class="bg-dark text-center text-white mt-auto">
@@ -100,6 +92,7 @@
         <!-- Copyright -->
       </footer>
     <script type="module" src="../js/ventainit.js"></script>
+    <script type="module" src="../js/eventos/venderTickets.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script><script type="module" src="../js/services/fetchServices.js"></script>
 </body>
 </html>

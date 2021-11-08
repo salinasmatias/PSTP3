@@ -10,7 +10,7 @@ window.onload = () =>{
         VentaRender(peliculaId);
     }
     else{
-        alert('Para ver informacion de una pelicula debes indicar su id. Sera redireccionado al inicio.');
+        
         window.location.href = "../";
     }
 }

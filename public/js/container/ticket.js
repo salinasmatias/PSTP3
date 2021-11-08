@@ -14,7 +14,6 @@ const RenderVenta = (json) =>{
 }
 
 const RenderMensajes=(json)=>{
-    debugger;
     let _rootMain=document.getElementById("mensaje")
     _rootMain.innerHTML=""
     if (json.status) {

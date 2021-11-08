@@ -14,8 +14,6 @@ const renderPeliculaOptions = (json) => {
 const RenderFuncionConTitulo =(json) =>{
     let _root = document.getElementById("tabla-body")
     json.forEach(f => {
-        debugger;
-        console.log(f.titulo);
         _root.innerHTML+=(funcion(f.peliculaId, f.funcionId, f.titulo, f.fecha, f.horario));
     });
 }

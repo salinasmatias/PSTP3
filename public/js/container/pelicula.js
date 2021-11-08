@@ -2,7 +2,7 @@ import { Pelicula } from "../components/pelicula.js";
 import { getPeliculaById } from "../services/fetchServices.js";
 
 
-debugger;
+
 const RenderMovie = (json) =>{
     let _root = document.getElementById("movie-content");
     let titulo = json.titulo;

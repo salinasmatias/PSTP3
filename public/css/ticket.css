@@ -4,6 +4,10 @@
     margin-bottom: 1em;
 }
 
+#contexto{
+    margin-top: 3em;
+}
+
 .container-fluid, #mensaje{
     max-width: 1212px;
     max-height: 368px;

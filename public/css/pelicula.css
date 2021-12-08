@@ -8,4 +8,62 @@
     max-height: 368px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3em;
+}
+
+#footer{
+    margin-top: 15em;
+}
+
+body{
+    background-color: black;
+}
+
+#titulo-pelicula{
+    font-family: 'Bungee', cursive;
+    color: #b5acac;
+}
+
+#sidebar-right{
+    background-image: url('../img/sidebar\ right.png');
+    background-size: cover;
+    
+}
+
+#sidebar-left{
+    background-image: url('../img/sidear\ left.jpg');
+    background-size: cover;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#carrusel{
+    max-width: 100%;
+}
+
+#sinopsis-title, #sinopsis{
+    font-family: 'Crete Round', serif;
+    color: #b5acac;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #7010bf;
+    border-color: #531e93;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #752ae3;
+    border-color: #660db0;
+    box-shadow: 0 0 0 .25rem rgba(101, 88, 191, 0.5);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #8d4cd9;
+    border-color: #6a2ca8;
 }

@@ -16,10 +16,10 @@ export const Pelicula = (titulo, poster, sinopsis, trailer) => `
                         <img alt="Bootstrap Image Preview" src="${poster}" class="rounded" />
                     </div>
                     <div class="col-md-9">
-                        <h2>
+                        <h2 id="sinopsis-title">
                             Sinopsis
                         </h2>
-                        <p>${sinopsis}</p>
+                        <p id="sinopsis">${sinopsis}</p>
                         <button type="button" class="btn btn-success"><a class="text-decoration-none" style="color:white;" href="../view/funciones.html">
                             Ver funciones
                         </a></button>

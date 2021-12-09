@@ -4,19 +4,55 @@
 
 #pelicula-selection{
     margin-bottom: 1em;
+    
+}
+
+#pelicula-selection:focus {
+    border-color: #ceabe6;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(247, 50, 234, 0.25);
 }
 
 .table td, .table th {
-    text-align: center;   
+    text-align: center;
+    color: #b5acac; 
 }
 
-.container-fluid{
-    max-width: 1212px;
-    max-height: 368px;
-    margin-left: auto;
-    margin-right: auto;
+body{
+    background-color: black;
+}
+
+.carousel{
+    margin-bottom: 2em;
 }
 
 a:link{
     text-decoration: none;
+}
+
+#footer{
+    margin-top: 15em;
+}
+
+#sidebar-right{
+    background-image: url('../img/sidebar\ right.png');
+    background-size: cover;
+    margin-bottom: -15em;
+}
+
+#sidebar-left{
+    background-image: url('../img/sidear\ left.jpg');
+    background-size: cover;
+    margin-bottom: -15em;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: blueviolet;
+    border-style: double;
+    border-width: 0px;
 }

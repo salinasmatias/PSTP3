@@ -67,13 +67,13 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 text-center">
-                  <p>Seleccione una fecha</p>
+                  <p class="paragraph-text">Seleccione una fecha</p>
                   <div class="col-md-12 input-group justify-content-center"><input type="date" id="fecha-pelicula" name="trip-start"
                       value="2021-11-07"
                       min="2021-01-01" max="2021-12-31"></div>
                   </div>
                   <div class="col-md-4 text-center">
-                    <p>Seleccione una pelicula</p>
+                    <p class="paragraph-text">Seleccione una pelicula</p>
                     
                     <select class="form-select text-center" aria-label="Default select example" id="pelicula-selection">
                       
@@ -82,7 +82,7 @@
                   </div>
         
                   <div class="col-md-4 text-center" id="boton-busqueda">
-                    <button type="button" class="btn btn-success btn-lg justify-content-center">Buscar</button>
+                    <button type="button" class="btn btn-success btn-lg justify-content-center" id="boton-buscar">Buscar</button>
                   </div>
         
               </div>
@@ -92,7 +92,7 @@
                           <div class="col-md-12">
                               <table class="table table-hover table-striped table-bordered align-middle">
                                   <thead>
-                                      <tr><th>Pelicula</th><th>Fecha</th><th>Horario</th><th>Comprar</th></tr>
+                                      <tr class="paragraph-text"><th>Pelicula</th><th>Fecha</th><th>Horario</th><th>Comprar</th></tr>
                                   </thead>
                                   <tbody id="tabla-body"></tbody>
                               </table>

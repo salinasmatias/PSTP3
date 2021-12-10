@@ -8,9 +8,80 @@
     margin-top: 3em;
 }
 
-.container-fluid, #mensaje{
+#sidebar-right{
+    background-image: url('../img/sidebar\ right.png');
+    background-size: cover;
+    margin-bottom: -15em;
+}
+
+#sidebar-left{
+    background-image: url('../img/sidear\ left.jpg');
+    background-size: cover;
+    margin-bottom: -15em;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+body{
+    background-color: black;
+}
+
+#pelicula-titulo{
+    color: #b5acac;
+    font-family: 'Bungee', cursive;
+    margin-right: 25px;
+}
+
+#pelicula-sinopsis{
+    font-family: 'Crete Round', serif;
+    color: #b5acac;
+}
+
+#titulo-comprar-tickets{
+    font-family: 'Crete Round', serif;
+    color: #b5acac;
+}
+
+.input-group-text{
+    font-family: 'Crete Round', serif;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #7010bf;
+    border-color: #531e93;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #752ae3;
+    border-color: #660db0;
+    box-shadow: 0 0 0 .25rem rgba(101, 88, 191, 0.5);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #8d4cd9;
+    border-color: #6a2ca8;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #4b0a6f;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(123, 34, 230, 0.25);
+}
+
+#mensaje{
     max-width: 1212px;
-    max-height: 368px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-left: 22em
+}
+
+footer{
+    margin-top: 3em;
 }

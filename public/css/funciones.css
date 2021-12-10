@@ -1,3 +1,8 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 #boton-busqueda{
     margin-top: 1.5em;
 }
@@ -50,9 +55,48 @@ a:link{
     padding-right:0;
     padding-left:0;
 }
+td{
+    font-family: 'Crete Round', serif;
+}
 
 tbody, td, tfoot, th, thead, tr {
     border-color: blueviolet;
     border-style: double;
     border-width: 0px;
+}
+
+ .paragraph-text{
+    color: #b5acac;
+    font-family: 'Bungee', cursive;
+ }
+
+ button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: 'Crete Round', serif;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #7010bf;
+    border-color: #531e93;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #752ae3;
+    border-color: #660db0;
+    box-shadow: 0 0 0 .25rem rgba(101, 88, 191, 0.5);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #8d4cd9;
+    border-color: #6a2ca8;
+}
+
+#boton-buscar{
+    padding-bottom: 0em;
+    margin-top: 17px;
 }

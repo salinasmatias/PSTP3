@@ -5,7 +5,10 @@ import { getFunciones, getFuncionesConTitulo } from "../services/fetchServices.j
 
 const renderPeliculaOptions = (json) => {
     let _root = document.getElementById("pelicula-selection");
-
+    let fecha = document.getElementById("fecha-pelicula");
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    fecha.value = date;
     json.forEach(pelicula => {
         _root.innerHTML+=(peliOption(pelicula.titulo));
     });
